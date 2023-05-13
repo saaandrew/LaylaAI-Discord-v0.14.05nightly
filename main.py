@@ -22,8 +22,11 @@ active_channels = set()
 
 @bot.event
 async def on_ready():
+    await bot.tree.sync()
+    await bot.change_presence(activity=discord.Game(name="Genshin Impact"))
     print(f"{bot.user.name} has connected to Discord!")
 
+    
 def generate_response(prompt):
     response = theb.Completion.create(prompt)
     if not response:
