@@ -135,7 +135,7 @@ if os.path.exists("channels.txt"):
 @bot.command(name='bonk')
 async def _bonk(ctx):
     bonk()
-    await ctx.send('Ugh my head hurts')
+    await ctx.send('What are we talking about, Rick Astley?')
 
 @bot.event
 async def on_command_error(ctx, error):
@@ -151,7 +151,7 @@ async def welp(ctx):
     embed.add_field(name="!ping", value="Pong", inline=False)
     embed.add_field(name="!toggleactive", value="Toggle the current channel to the list of active channels", inline=False)   
     embed.add_field(name="!toggledm", value="Toggle if DM should be active or not", inline=False)   
-    embed.set_footer(text="Created by Mishal#1916")
+    embed.set_footer(text="saaandrew da best!!")
             
 
 keep_alive()
