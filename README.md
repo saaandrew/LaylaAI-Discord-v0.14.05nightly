@@ -1,9 +1,6 @@
 # LaylaAI - Snapshot 051323nightly
 This is a [Python](https://www.python.org)-based Discord bot using the `discord.py` library. The bot responds to messages, can change its profile picture, and provide latency information. Additionally, it uses the `theb` from [GPT4FREE](https://github.com/xtekky/gpt4free) for generating responses based on conversation history.
 
-
-## Commands ⚙️⚙️
-- For all commands use `/help` in discord
 # Steps to install and run 🚩 :
 ### Step 1. 🎬 Git clone repository
 ```
@@ -15,20 +12,15 @@ cd LaylaAI-DiscordBot
 ```
 ### Step 3. 🔑 Getting discord bot token and enabling intents from [here](https://discord.com/developers/applications)
 
-### Step 4. 🔑 Get hugging face Access Tokens from [here](https://huggingface.co/settings/tokens)
-## Read or Write it dosent matter
-![image](https://user-images.githubusercontent.com/91066601/236681615-71600817-774a-430c-8cec-8e6710a82b49.png)
-
-### Step 5. 🔐 Rename `example.env` to `.env` and put the discord token and hugging face access token. It will look like this:
+### Step 4. 🔐 Rename `example.env` to `.env` and put the discord token and hugging face access token. It will look like this:
 ```
-HUGGING_FACE_API=hf_access_token_from_step_4
 DISCORD_TOKEN=token_from_step_3
 ```
-### Step 6. ⚙️ Install all the dependencies
+### Step 5. ⚙️ Install all the dependencies
 ```
 pip install -r requirements.txt
 ```
-### Step 7. 🚀 Run the bot
+### Step 6. 🚀 Run the bot
 ```
 python main.py
 ```
@@ -39,8 +31,7 @@ python main.py
 ### 🏁 Finally talk to the bot
 #### There are 2 ways to talk to the ai
 - Invite your bot and DM (Direct message) it | ⚠️ Make sure you have DM enabled
-- if you want it in server channel use **/toggleactive** 
-- For more awesome commands use **/help**
+- if you want it in server channel use **!toggleactive** 
 
 # ✨✨✨  Other ways to run ✨✨✨
 
