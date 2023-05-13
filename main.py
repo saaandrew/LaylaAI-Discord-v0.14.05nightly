@@ -24,7 +24,7 @@ active_channels = set()
 @bot.event
 async def on_ready():
     await bot.tree.sync()
-    await bot.change_presence(activity=discord.Game(name="Coded by Mishal#1916"))
+    await bot.change_presence(activity=discord.Game(name="Genshin Impact"))
     print(f"{bot.user.name} has connected to Discord!")
     invite_link = discord.utils.oauth_url(
         bot.user.id,
@@ -189,7 +189,7 @@ if os.path.exists("channels.txt"):
 async def bonk(ctx):
     global message_history
     message_history.clear()
-    await ctx.send("What did you just say? Baby Yoda?")
+    await ctx.send("What did you just say? Rick Astley?")
 
 bot.remove_command("help")   
 @bot.hybrid_command(name="help", description="Get all other commands!")
@@ -201,7 +201,7 @@ async def help(ctx):
     embed.add_field(name="!ping", value="Pong", inline=False)
     embed.add_field(name="!toggleactive", value="Toggle the current channel to the list of active channels", inline=False)   
     embed.add_field(name="!toggledm", value="Toggle if DM should be active or not", inline=False)   
-    embed.set_footer(text="Created by Mishal#1916")
+    embed.set_footer(text="^vvvv^")
     
     await ctx.send(embed=embed)
             
