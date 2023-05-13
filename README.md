@@ -1,23 +1,19 @@
 # Gpt4Free-Chat-bot 🤖
 This is a [Python](https://www.python.org)-based Discord bot using the `discord.py` library. The bot responds to messages, can change its profile picture, and provide latency information. Additionally, it uses the `theb` from [GPT4FREE](https://github.com/xtekky/gpt4free) for generating responses based on conversation history.
 
-# Preview 👀
-![image](https://user-images.githubusercontent.com/91066601/235470838-cad26039-c843-4497-8ba7-fc88c66dab49.png)
-
 
 ## Commands ⚙️⚙️
-- For all commands use `/help` in discord for your mom
+- For all commands use `/help` in discord
 # Steps to install and run 🚩 :
 ### Step 1. 🎬 Git clone repository
 ```
-git clone https://github.com/mishalhossin/Discord-Chatbot-Gpt4Free
+git clone https://github.com/saaandrew/LaylaAI-DiscordBot
 ```
 ### Step 2. 📁 Changing directory to cloned directory
 ```
-cd Discord-Chatbot-Gpt4Free
+cd LaylaAI-DiscordBot
 ```
 ### Step 3. 🔑 Getting discord bot token and enabling intents from [here](https://discord.com/developers/applications)
-## [For more info click here](https://github.com/mishalhossin/Discord-Chatbot-Gpt4Free/blob/main/discord_token.md#select-application)
 
 ### Step 4. 🔑 Get hugging face Access Tokens from [here](https://huggingface.co/settings/tokens)
 ## Read or Write it dosent matter
@@ -46,8 +42,6 @@ python main.py
 - if you want it in server channel use **/toggleactive** 
 - For more awesome commands use **/help**
 
-![image](https://user-images.githubusercontent.com/91066601/235474066-d805b10b-168b-4965-b623-6b37470ca6bb.png)
-
 # ✨✨✨  Other ways to run ✨✨✨
 
 ### Using docker to run :whale:
@@ -73,6 +67,5 @@ sudo docker-compose up --build
 
 ![image](https://user-images.githubusercontent.com/91066601/235811115-689c40e8-660a-448d-83dd-194631324436.png)
 
-# [![Try on repl.it](https://repl-badge.jajoosam.repl.co/try.png)](https://repl.it/github/mishalhossin/Discord-Chatbot-Gpt4Free)
+# [![Try on repl.it](https://repl-badge.jajoosam.repl.co/try.png)](https://repl.it/github/saaandrew/LaylaAI-DiscordBot)
 
-###### Want something nsfw ? then check this out: [SEX-GPT](https://github.com/mishalhossin/Gpt3-sexbot-discord)
