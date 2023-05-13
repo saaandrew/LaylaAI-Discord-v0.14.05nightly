@@ -51,7 +51,7 @@ def main():
         </style>
     </head>
     <body>
-        <h1>Console</h1>
+        <h1>Created by Mishal</h1>
         <div class="commands-container">
             <h2>GPT4FREE Chatbot Commands</h2>
             <p class="command">!pfp [image_url] - Change the bot's profile picture</p>
