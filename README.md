@@ -1,4 +1,4 @@
-# Gpt4Free-Chat-bot 🤖
+# LaylaAI - Snapshot 051323nightly
 This is a [Python](https://www.python.org)-based Discord bot using the `discord.py` library. The bot responds to messages, can change its profile picture, and provide latency information. Additionally, it uses the `theb` from [GPT4FREE](https://github.com/xtekky/gpt4free) for generating responses based on conversation history.
 
 
