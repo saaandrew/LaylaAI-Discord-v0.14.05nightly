@@ -1,0 +1,12 @@
+aiohttp
+asyncio
+discord.py
+discord-py-interactions
+pynacl
+requests
+flask
+discord
+fake-useragent
+curl_cffi
+python-dotenv
+httpx
